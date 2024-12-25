@@ -6,8 +6,8 @@ const LINKING_ERROR =
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo Go\n';
 
-const InstallUnknownApps = NativeModules.InstallUnknownApps
-  ? NativeModules.InstallUnknownApps
+const InstallUnknownApps = NativeModules.ApkInstaller
+  ? NativeModules.ApkInstaller
   : new Proxy(
       {},
       {
@@ -17,6 +17,20 @@ const InstallUnknownApps = NativeModules.InstallUnknownApps
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return InstallUnknownApps.multiply(a, b);
+export function checkAppInstallPermission(): Promise<number> {
+  if (Platform.OS !== 'android') {
+    return Promise.reject(
+      new Error('This library is only available on Android.')
+    );
+  }
+  return InstallUnknownApps.checkInstallPermission();
+}
+
+export function requestAppInstallPermission(): Promise<number> {
+  if (Platform.OS !== 'android') {
+    return Promise.reject(
+      new Error('This library is only available on Android.')
+    );
+  }
+  return InstallUnknownApps.requestInstallPermission();
 }
