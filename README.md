@@ -55,7 +55,7 @@ checkPermission();
 
 Watch the demo video to see the library in action:
 
-[![Watch the video](https://youtube.com/shorts/18PS-yj3KM4)]
+[![Watch the video](https://img.youtube.com/vi/18PS-yj3KM4/0.jpg)](https://youtube.com/shorts/18PS-yj3KM4)
 
 
 ## 📄 License
