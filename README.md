@@ -55,9 +55,8 @@ checkPermission();
 
 Watch the demo video to see the library in action:
 
-<a href="https://youtube.com/shorts/18PS-yj3KM4" target="_blank">
-  <img src="https://img.youtube.com/vi/18PS-yj3KM4/0.jpg" alt="Watch the video">
-</a>
+[![Watch the video](https://img.youtube.com/vi/18PS-yj3KM4/0.jpg)](https://youtube.com/shorts/18PS-yj3KM4)
+
 
 ## 📄 License
 
