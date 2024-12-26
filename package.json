@@ -1,6 +1,6 @@
 {
   "name": "react-native-install-unknown-apps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight React Native library to manage and enable the 'Install Unknown Apps' permission on Android devices. Ideal for apps that need to install APK files from external sources.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -47,8 +47,20 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "android",
+    "install unknown apps",
+    "apk installer",
+    "permissions",
+    "android permissions",
+    "install external apps",
+    "unknown sources",
+    "apk manager",
+    "react-native android permissions",
+    "react-native apk installer",
+    "app install permission",
+    "external apk install",
+    "android apk install",
+    "mobile app permissions"
   ],
   "repository": {
     "type": "git",
