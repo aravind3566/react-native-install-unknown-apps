@@ -53,7 +53,7 @@ checkPermission();
 
 ## 🎥 Demo Video
 
-(https://github.com/aravind3566/react-native-install-unknown-apps/blob/main/assets/demo.gif)
+![til](./assets/demo.gif)
 
 Watch the demo video to see the library in action:
 
